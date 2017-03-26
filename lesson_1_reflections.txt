@@ -1,0 +1,49 @@
+Q1 - How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A1 - Through the diff i have seen at every changed line, the difference between the older and the
+     newer version. Though by checking the code trough the comparison of each change i was able to
+     detect what was causing the troubles, or at which line the bug was introduced.
+
+
+Q2 - How could having easy access to the entire history of a file make you a more efficient
+     programmer in the long term?
+A2 - Having the entire history of a file could make me a more efficient programmer in the long
+     term because it will allow me:
+     -- To keep track of the changes that i make to it.
+     -- To review an old version of the file at a specific date anytime i want.
+     -- To compare two different versions of the same file and see what have changed.
+
+
+Q3 - What do you think are the pros and cons of manually choosing when to create a commit, like you
+     do in Git, vs having versions automatically saved, like Google docs does?
+A3 - Choosing when to create a commit, definitely gives me the total control over when to save
+     the different versions of my file, how to do it, and give me the possibility to make an explanation
+     of why i save that version and what is the purpose of that specific version. But if i didn't do it
+     with some strategy or forget to save a version of my file crucial moments of its evolution then my commits
+     can quickly become useless.
+
+
+Q4 - Why do you think some version control systems, like Git, allow saving multiple file
+     in one commit, while others, like Google Docs, treat each file separately?
+A4 - I think it's because of the purpose of each of those version control systems. For instance
+     Google Docs is made for just editing document like (books, report etc...) and most of the time a simple file can handle the
+     content of an entire work can be contained in a simple file and even if there are more than one file, they are rarely related
+     to each other. While Git purpose is clearly for version controlling the code of applications projects. And while developing
+     an application, there is 90% and more of chance that, there is more than one file in your project and they are often related
+     to each other. Then the developer of Git includes it in the features of the software.
+
+
+Q5 - How can you use git log and git diff to view the history of a files?
+A5 - I can use git log to view a detailed lis of every checkpoint that has been saved
+     in a git repository trough the different commits.
+     I can view the changes made to files that are within the repository by commparing
+     two commits trough git diff.
+
+Q6 - How might using version control make you more confident to make changes that could
+     could break something?
+A6 - Because i know that i could come back to a previous working version of my code anytime i want
+    by using git checkout. My work won't be lost though so it might can me more confident.
+
+A7 - Now that you have your workspace set up, what do you want to try using Git for?
+Q7 - I just want to make a file of simple web page, make at least tree commits,
+     compare its different versions by using git diff, introduced a weird behavior and commit
+     and then checkout to review the previous version. And many things more...
